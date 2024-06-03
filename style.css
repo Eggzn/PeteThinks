@@ -1,0 +1,146 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+.pic__descript{
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+/* .fix__padding{
+padding: 0px 14px 0px 14px;
+} */
+
+
+/* .pic__descript__zaney{
+  text-align: center;
+  flex-wrap: wrap;
+  padding:0px 5px 0px 5px;
+  width:188px;
+} */
+
+
+.portfolioli{
+  
+  display: flex;
+  justify-content:space-between;
+}
+
+.row{
+  flex-direction: row;
+}
+
+/* Headings */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centering all ITEMS together */
+}
+
+.portfolio section{
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.nav h1, .nav a {
+  margin: 0 10px; /* Adding horizontal margin */
+  font-family: "Playfair Display", Times, serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  justify-content: center;
+} 
+.Pete__intro{
+  text-align: left; 
+}
+
+
+
+.about__contact {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-around; 
+}
+
+/* .top__chunk{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+} */
+
+/* Header */
+header {
+  text-align: center;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  width: 100%;        
+  height: auto;      /* fits the box*/
+  border-radius: 50%;/* Circle Mode*/
+  object-fit: cover; 
+}
+
+
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+ 
